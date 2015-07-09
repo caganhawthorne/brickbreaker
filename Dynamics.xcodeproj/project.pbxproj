@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5405C31B4EC5680069C5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405C21B4EC5680069C5D4 /* AppDelegate.swift */; };
+		EF5405C51B4EC5680069C5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405C41B4EC5680069C5D4 /* ViewController.swift */; };
+		EF5405C81B4EC5680069C5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5405C61B4EC5680069C5D4 /* Main.storyboard */; };
+		EF5405CA1B4EC5680069C5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5405C91B4EC5680069C5D4 /* Assets.xcassets */; };
+		EF5405CD1B4EC5680069C5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5405CB1B4EC5680069C5D4 /* LaunchScreen.storyboard */; };
+		EF5405D81B4EC5680069C5D4 /* DynamicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405D71B4EC5680069C5D4 /* DynamicsTests.swift */; };
+		EF5405E31B4EC56A0069C5D4 /* DynamicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405E21B4EC56A0069C5D4 /* DynamicsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5405D41B4EC5680069C5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5405B71B4EC5660069C5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5405BE1B4EC5680069C5D4;
+			remoteInfo = Dynamics;
+		};
+		EF5405DF1B4EC5690069C5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5405B71B4EC5660069C5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5405BE1B4EC5680069C5D4;
+			remoteInfo = Dynamics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5405BF1B4EC5680069C5D4 /* Dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5405C21B4EC5680069C5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF5405C41B4EC5680069C5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5405C71B4EC5680069C5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5405C91B4EC5680069C5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5405CC1B4EC5680069C5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5405CE1B4EC5680069C5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5405D31B4EC5680069C5D4 /* DynamicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5405D71B4EC5680069C5D4 /* DynamicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsTests.swift; sourceTree = "<group>"; };
+		EF5405D91B4EC5690069C5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5405DE1B4EC5690069C5D4 /* DynamicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5405E21B4EC56A0069C5D4 /* DynamicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsUITests.swift; sourceTree = "<group>"; };
+		EF5405E41B4EC56A0069C5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5405BC1B4EC5680069C5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405D01B4EC5680069C5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405DB1B4EC5690069C5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5405B61B4EC5660069C5D4 = {
+			isa = PBXGroup;
+			children = (
+				EF5405C11B4EC5680069C5D4 /* Dynamics */,
+				EF5405D61B4EC5680069C5D4 /* DynamicsTests */,
+				EF5405E11B4EC56A0069C5D4 /* DynamicsUITests */,
+				EF5405C01B4EC5680069C5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5405C01B4EC5680069C5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5405BF1B4EC5680069C5D4 /* Dynamics.app */,
+				EF5405D31B4EC5680069C5D4 /* DynamicsTests.xctest */,
+				EF5405DE1B4EC5690069C5D4 /* DynamicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5405C11B4EC5680069C5D4 /* Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				EF5405C21B4EC5680069C5D4 /* AppDelegate.swift */,
+				EF5405C41B4EC5680069C5D4 /* ViewController.swift */,
+				EF5405C61B4EC5680069C5D4 /* Main.storyboard */,
+				EF5405C91B4EC5680069C5D4 /* Assets.xcassets */,
+				EF5405CB1B4EC5680069C5D4 /* LaunchScreen.storyboard */,
+				EF5405CE1B4EC5680069C5D4 /* Info.plist */,
+			);
+			path = Dynamics;
+			sourceTree = "<group>";
+		};
+		EF5405D61B4EC5680069C5D4 /* DynamicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5405D71B4EC5680069C5D4 /* DynamicsTests.swift */,
+				EF5405D91B4EC5690069C5D4 /* Info.plist */,
+			);
+			path = DynamicsTests;
+			sourceTree = "<group>";
+		};
+		EF5405E11B4EC56A0069C5D4 /* DynamicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5405E21B4EC56A0069C5D4 /* DynamicsUITests.swift */,
+				EF5405E41B4EC56A0069C5D4 /* Info.plist */,
+			);
+			path = DynamicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5405BE1B4EC5680069C5D4 /* Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5405E71B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "Dynamics" */;
+			buildPhases = (
+				EF5405BB1B4EC5680069C5D4 /* Sources */,
+				EF5405BC1B4EC5680069C5D4 /* Frameworks */,
+				EF5405BD1B4EC5680069C5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dynamics;
+			productName = Dynamics;
+			productReference = EF5405BF1B4EC5680069C5D4 /* Dynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5405D21B4EC5680069C5D4 /* DynamicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5405EA1B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "DynamicsTests" */;
+			buildPhases = (
+				EF5405CF1B4EC5680069C5D4 /* Sources */,
+				EF5405D01B4EC5680069C5D4 /* Frameworks */,
+				EF5405D11B4EC5680069C5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5405D51B4EC5680069C5D4 /* PBXTargetDependency */,
+			);
+			name = DynamicsTests;
+			productName = DynamicsTests;
+			productReference = EF5405D31B4EC5680069C5D4 /* DynamicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5405DD1B4EC5690069C5D4 /* DynamicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5405ED1B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "DynamicsUITests" */;
+			buildPhases = (
+				EF5405DA1B4EC5690069C5D4 /* Sources */,
+				EF5405DB1B4EC5690069C5D4 /* Frameworks */,
+				EF5405DC1B4EC5690069C5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5405E01B4EC5690069C5D4 /* PBXTargetDependency */,
+			);
+			name = DynamicsUITests;
+			productName = DynamicsUITests;
+			productReference = EF5405DE1B4EC5690069C5D4 /* DynamicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5405B71B4EC5660069C5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cagan Hawthorne";
+				TargetAttributes = {
+					EF5405BE1B4EC5680069C5D4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF5405D21B4EC5680069C5D4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF5405BE1B4EC5680069C5D4;
+					};
+					EF5405DD1B4EC5690069C5D4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF5405BE1B4EC5680069C5D4;
+					};
+				};
+			};
+			buildConfigurationList = EF5405BA1B4EC5660069C5D4 /* Build configuration list for PBXProject "Dynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5405B61B4EC5660069C5D4;
+			productRefGroup = EF5405C01B4EC5680069C5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5405BE1B4EC5680069C5D4 /* Dynamics */,
+				EF5405D21B4EC5680069C5D4 /* DynamicsTests */,
+				EF5405DD1B4EC5690069C5D4 /* DynamicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5405BD1B4EC5680069C5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5405CD1B4EC5680069C5D4 /* LaunchScreen.storyboard in Resources */,
+				EF5405CA1B4EC5680069C5D4 /* Assets.xcassets in Resources */,
+				EF5405C81B4EC5680069C5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405D11B4EC5680069C5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405DC1B4EC5690069C5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5405BB1B4EC5680069C5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5405C51B4EC5680069C5D4 /* ViewController.swift in Sources */,
+				EF5405C31B4EC5680069C5D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405CF1B4EC5680069C5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5405D81B4EC5680069C5D4 /* DynamicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5405DA1B4EC5690069C5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5405E31B4EC56A0069C5D4 /* DynamicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5405D51B4EC5680069C5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5405BE1B4EC5680069C5D4 /* Dynamics */;
+			targetProxy = EF5405D41B4EC5680069C5D4 /* PBXContainerItemProxy */;
+		};
+		EF5405E01B4EC5690069C5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5405BE1B4EC5680069C5D4 /* Dynamics */;
+			targetProxy = EF5405DF1B4EC5690069C5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5405C61B4EC5680069C5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5405C71B4EC5680069C5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5405CB1B4EC5680069C5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5405CC1B4EC5680069C5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5405E51B4EC56A0069C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5405E61B4EC56A0069C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5405E81B4EC56A0069C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dynamics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.Dynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5405E91B4EC56A0069C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dynamics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.Dynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5405EB1B4EC56A0069C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.DynamicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamics.app/Dynamics";
+			};
+			name = Debug;
+		};
+		EF5405EC1B4EC56A0069C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.DynamicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamics.app/Dynamics";
+			};
+			name = Release;
+		};
+		EF5405EE1B4EC56A0069C5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynamicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.DynamicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dynamics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF5405EF1B4EC56A0069C5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DynamicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawthorne.DynamicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dynamics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5405BA1B4EC5660069C5D4 /* Build configuration list for PBXProject "Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5405E51B4EC56A0069C5D4 /* Debug */,
+				EF5405E61B4EC56A0069C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5405E71B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5405E81B4EC56A0069C5D4 /* Debug */,
+				EF5405E91B4EC56A0069C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5405EA1B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "DynamicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5405EB1B4EC56A0069C5D4 /* Debug */,
+				EF5405EC1B4EC56A0069C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5405ED1B4EC56A0069C5D4 /* Build configuration list for PBXNativeTarget "DynamicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5405EE1B4EC56A0069C5D4 /* Debug */,
+				EF5405EF1B4EC56A0069C5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5405B71B4EC5660069C5D4 /* Project object */;
+}
