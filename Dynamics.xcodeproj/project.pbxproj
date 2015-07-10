@@ -14,6 +14,8 @@
 		EF5405CD1B4EC5680069C5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5405CB1B4EC5680069C5D4 /* LaunchScreen.storyboard */; };
 		EF5405D81B4EC5680069C5D4 /* DynamicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405D71B4EC5680069C5D4 /* DynamicsTests.swift */; };
 		EF5405E31B4EC56A0069C5D4 /* DynamicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405E21B4EC56A0069C5D4 /* DynamicsUITests.swift */; };
+		EF5405F31B4EF6EB0069C5D4 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405F21B4EF6EB0069C5D4 /* Brick.swift */; };
+		EF5405F51B4F08E20069C5D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5405F41B4F08E20069C5D4 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EF5405DE1B4EC5690069C5D4 /* DynamicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5405E21B4EC56A0069C5D4 /* DynamicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsUITests.swift; sourceTree = "<group>"; };
 		EF5405E41B4EC56A0069C5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5405F21B4EF6EB0069C5D4 /* Brick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		EF5405F41B4F08E20069C5D4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				EF5405C21B4EC5680069C5D4 /* AppDelegate.swift */,
 				EF5405C41B4EC5680069C5D4 /* ViewController.swift */,
+				EF5405F21B4EF6EB0069C5D4 /* Brick.swift */,
 				EF5405C61B4EC5680069C5D4 /* Main.storyboard */,
+				EF5405F41B4F08E20069C5D4 /* HomeViewController.swift */,
 				EF5405C91B4EC5680069C5D4 /* Assets.xcassets */,
 				EF5405CB1B4EC5680069C5D4 /* LaunchScreen.storyboard */,
 				EF5405CE1B4EC5680069C5D4 /* Info.plist */,
@@ -257,6 +263,8 @@
 			files = (
 				EF5405C51B4EC5680069C5D4 /* ViewController.swift in Sources */,
 				EF5405C31B4EC5680069C5D4 /* AppDelegate.swift in Sources */,
+				EF5405F31B4EF6EB0069C5D4 /* Brick.swift in Sources */,
+				EF5405F51B4F08E20069C5D4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
